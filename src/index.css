@@ -7,8 +7,8 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: red;
+    justify-content: space-around;
+    background-color: rgba(255, 37, 37, 0.801);
 }
 
 body{
@@ -53,3 +53,17 @@ nav ul{
 nav ul li a:hover{
     color: black;
 }
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+ }
